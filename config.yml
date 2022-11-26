@@ -1,0 +1,87 @@
+misc:
+  # capmonster key to solve captcha if needed
+  capmonster: 
+  # stock to show if user is not licensed (server/owner stock), USER ID
+  main_stock: 1035330913124483132
+
+bot settings:
+  main: 
+    token: 
+    # idle / online / do_not_disturb
+    status: idle
+    activity: Boosting
+    # playing/watching/streaming/competing/listening
+    activity_type: playing
+    # ignore, since we use slash cumands
+    prefix: $
+
+  other:
+    # Server guild id commands will only work in that server id
+    guild_id: 1044833101093801984
+    # put list of your admins/owners here, if u need more add '-' on new line
+    admins: 
+    - 1035330913124483132
+
+
+commands:
+  # if true, it will show it.
+  # if false, it will not show it
+  boost: true
+  stock: true
+  restock: true
+  send_tokens: true
+  reformat: true
+
+  activity: true
+  license: true
+  payments: false
+
+
+watermark settings:
+
+  data:
+    # if true, it will do it.
+    # if false, it will not do it
+    change_nick: true
+    change_bio: true
+
+  watermarks:
+    username: .gg/yacoii
+    bio: 
+
+
+payments:
+
+  data:
+    # if true, it will show it.
+    # if false, it will not show it
+    Paypal: true
+    Cashapp: true
+    Bitcoin: true
+    Litecoin: true
+    Ethereum: true
+    Solana: true
+    Monero: true
+    Bitcoin Cash: true
+
+  addresses:
+    # Put your cryptoaddresses or tags here
+    Paypal: to many charge backs so dont have 
+    Cashapp: dont have atm
+    Bitcoin: bc1qm6kwh9hevvjhh7l9uz0qd77rclnh6wuh4lqz6z
+    Litecoin: LMQ4rTXQ179EWB7ZafBY1EKDz7FjhLFt2J
+    Ethereum: 0xDE7688424471781a697001b0cfFcC85Dc7443d17
+    Solana: B4hkfN23gtZP1161jPiobMfgap8xwSJFeHfpSgEDjZTm
+    Monero: 4AgAivJH873MefHEEv9e5C5Sp4B3XbuCt4DrgFkgctxc2YKMfqut3jGNBsdPuTaqAST4aYZUqHUiSePD8cD14nyr7i97hDt
+    Bitcoin Cash: qzjwlh5q6khj32lqfcual8daehnrtm3n0g569k29xq
+
+  emojis:
+    # do '\' before the emoji to get id
+    Paypal: <:SN_Cartoon_Paypal:1033527178584936549>
+    Cashapp: <:CashApp:1017211749021261925>
+    Bitcoin: <:Bitcoin:1033528032033521664>
+    Litecoin: <:LiteCoin:1028480691450675200>
+    Ethereum: <:ETH:1028484299193860113>
+    Solana: <:Phantom_Solana:1028482534226526280>
+    Monero: <:coinbase:1033527760943054928>
+    Bitcoin Cash: <:BCH:1033527297568940062>

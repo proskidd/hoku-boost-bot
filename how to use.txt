@@ -1,0 +1,5 @@
+run install.bat
+configure config.yml
+run start.bat
+
+after configuring yourself as a admin, license yourself
